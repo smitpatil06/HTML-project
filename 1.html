@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>All About Linux</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            margin: 0;
+            padding: 0;
+        }
+
+        /* Background image container */
+        .image-container {
+            position: absolute;
+            margin-top: 0;
+            right: 0; /* Moves it to the right */
+            width: 50%; /* Covers half of the screen */
+            height: 100vh; /* Full height */
+            overflow: hidden; /* Hides excess */
+        }
+
+        /* Background image */
+        .image-container img {
+            width: 100%; 
+            height: 100%; 
+            object-fit: cover; 
+        }
+        .video-background {
+        position: absolute;
+        margin-top: 550px;
+        max-width: 47%;
+        
+    }
+        .text {
+            position: absolute;
+            color: #ffffff;
+            font-size: 16px;
+            padding: 15px;
+            max-width: 47%;
+            margin-top: 210px; /* Add space so it doesn't overlap with the logo */
+        
+        }
+        /* Text & logo container */
+        .text1 {
+            position: absolute;
+            top: 10%;
+            left: 5%; 
+            transform: translateY(-50%);
+            max-width: 47%;
+            align-items: center;
+            color: #98eaff;
+        }
+
+        .logo {
+            width: 100px; 
+            margin-right: 15px; 
+        }
+
+        .heading {
+            font-size: 40px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+     
+    </style>
+</head>
+<body>
+     <div class="image-container">
+        <img src="linux1.jpg" alt="Background">
+    </div>
+
+   
+    <section class="text1">
+        <img src="LOGO.png" alt="Harvard" class="logo">
+        <div class="heading">
+            This is CS50x 2025 
+        </div>
+    </section>
+    <section class="text">
+
+        <div>
+            This is CS50, Harvard University’s introduction to the intellectual enterprises of computer science and the art of programming, for concentrators and non-concentrators alike, with or without prior programming experience. (Two thirds of CS50 students have never taken CS before.) This course teaches you how to solve problems, both with and without code, with an emphasis on correctness, design, and style. Topics include computational thinking, abstraction, algorithms, data structures, and computer science more generally. Problem sets inspired by the arts, humanities, social sciences, and sciences. More than teach you how to program in one language, this course teaches you how to program fundamentally and how to teach yourself new languages ultimately. The course starts with a traditional but omnipresent language called C that underlies today’s newer languages, via which you’ll learn not only about functions, variables, conditionals, loops, and more, but also about how computers themselves work underneath the hood, memory and all. The course then transitions to Python, a higher-level language that you’ll understand all the more because of C. Toward term’s end, the course introduces SQL, via which you can store data in databases, along with HTML, CSS, and JavaScript, via which you can create web and mobile apps alike. Course culminates in a final project.
+        </div>
+    </section>
+    <section class="video-background">
+        <video width="640" height="360" controls poster="video-thumbnail.jpg" >
+            <source src="This is CS50.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+</body>
+</html>
