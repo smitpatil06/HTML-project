@@ -1,0 +1,108 @@
+
+.heading{    
+    display: flex;
+    font-size: large ;
+    padding: 20px;
+    padding-left: 25px;
+    border: solid whitesmoke 5px;
+    max-width: 1735px;
+}
+body{
+    margin: 0;
+    
+}
+
+a{
+    padding: 40px;
+    color: black;
+}
+a:hover{
+    color: rgb(160, 16, 204);
+}
+
+.add{
+    margin-top: 250px;
+    margin-left: 50px;
+}
+
+
+.background {
+        position: absolute;
+        left: -10;
+        z-index: -1;
+        }
+
+.button1{
+
+    background-color: rgb(81, 122, 211); 
+    border-radius: 12px; 
+    padding: 12px 24px;
+    
+}
+.button1:hover{
+    color: white;
+    background-color: transparent;
+    border: solid aqua;
+}
+
+.button2{
+    color: rgb(255, 255, 255);
+    transition-duration: 0.4s;
+    background-color: transparent;
+    border-radius: 12px;
+    padding: 12px 24px;
+    
+}
+.button2:hover{
+    
+    border: solid aqua;
+}
+
+.imp{
+    position: absolute;
+    margin-top: 500px;
+    width: 1800px;
+    height: 500px;
+}
+
+.imp1{
+    position: absolute;
+    margin-top: 1200px;
+    width: 1800px;
+    height: 500px;
+    background-color: rgba(12, 142, 174, 0.537);
+    
+    
+}
+
+.imp2{
+    display: flex;
+    justify-content: center;
+    
+
+}
+
+.imp2 > section{
+    margin: 50px;
+
+
+}
+
+
+.col{
+    display: flex;
+    justify-content: center; 
+    font-size: large;
+    font-style: italic;
+    font-weight: bolder;
+   
+}
+.col >div{
+    border: solid whitesmoke 5px;
+    margin: 10px;
+    padding: 50px;
+}
+h1,h3,h4{
+
+    text-align: center;
+}
